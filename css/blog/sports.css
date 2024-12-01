@@ -1,0 +1,52 @@
+body {
+    background-image: url("../../assets/img/blog/jockington/grass.png");
+    background-color: white;
+    color: white;
+}
+
+.header {
+    background: darkgreen;
+}
+
+.header .welcome {
+    flex-grow: 1;
+    max-width: 80%;
+    object-fit: contain;
+}
+
+.header .ornament {
+    flex-grow: 1;
+    margin-left: 1rem;
+    max-width: 20%;
+    max-height: 140px;
+    object-fit: contain;
+}
+
+.post {
+    background: darkgreen;
+}
+
+.post-footer {
+    border-top: 4px double lime;
+    border-bottom: 4px double lime;
+}
+
+.comment .author {
+    background: darkgreen;
+}
+
+.comment .author .user {
+    color: lightskyblue;
+}
+
+.comment .author .user.admin {
+    color: lightgreen;
+}
+
+.comment .comment-body {
+    background-color: black;
+}
+
+.powered-by {
+    color: lightgray;
+}
