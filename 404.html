@@ -33,6 +33,7 @@
 		<script src="./js/soundfx.js"></script>
 		<script>
 			const previousPage = document.referrer; 
+			console.log(document.referrer);
 			// const currentPath = window.location.pathname;
 		
 			const mainElement = document.querySelector('main');
@@ -60,8 +61,8 @@
 			};
 		
 			if (previousPage.includes('/blog')) {
-				changeFavicon('./assets/img/favicon/blog_favicon.png');
-				loadStylesheet('./css/blog/logdaily.css');
+				changeFavicon('../assets/img/favicon/blog_favicon.png');
+				loadStylesheet('../css/blog/logdaily.css');
 		
 				mainElement.innerHTML = `
 					<div class="wrapper alert">
