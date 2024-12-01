@@ -190,6 +190,29 @@
 				}
 			},
 			{
+				"id": "libelle",
+				"table": {
+					"name": [
+						"Libelle",
+						"Libelle"
+					],
+					"pronouns": "She/her",
+					"role": "Secondary Antagonist",
+					"object": "Ride Control Panel"
+				},
+				"description": "As Dreamland's main technician and right-hand to Firefly, Libelle makes it her duty to patch up and improve all of the park's assets, be it denizens who are malfunctioning, to Firefly's many inventions and gadgets, as well as Firefly herself.\n\nAlways bringing her explosive power into play, she has quite a meek and nerdy personality in contrast, and is kind of a bookworm... except for when she's showcasing her work or talking about her interests.",
+				"trivia": [
+					"Hyped up on caffeine 99% of the time.",
+					"Loves explosives. Might be adding \"special editions\" to rides (explosions).",
+					"Wings got burnt due to her recklessness. Can't fly anymore, but that won't stop her!",
+					"Firefly often calls her \"Buttons\"."
+				],
+				"image": {
+					"default": "../assets/img/disc/ch5/libelle.png",
+					"hover": "../assets/img/disc/ch5/libelle_2.png"
+				}
+			},
+			{
 				"id": "spreeblitz",
 				"table": {
 					"name": [
