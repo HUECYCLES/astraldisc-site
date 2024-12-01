@@ -276,5 +276,24 @@ a.disabled {
 
 .comment-btn:active { /* <-- This happens only once when the element is clicked */
     background-color: #9aa6b0;
-	color: white
+	color: white;
+}
+
+.search-results {
+	margin-top: 10px;
+}
+.search-result {
+	padding: 10px;
+	margin: 5px 0;
+	background-color: #9ad2e8;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.search-result:hover {
+	background-color: white;
+}
+
+.search-result:active {
+	cursor: not-allowed;
 }

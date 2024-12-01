@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -8,21 +8,6 @@
 	<link rel="icon" type="image/png" href="../assets/img/blog/pocket/light/favicon.png"/>
 	<link href="../css/templates.css" rel="stylesheet" type="text/css" media="all"/>
 	<link href="../css/blog/pocketspace.css" rel="stylesheet" type="text/css" media="all"/>
-        <style>
-		.search-results {
-			margin-top: 10px;
-		}
-		.search-result {
-			padding: 10px;
-			margin: 5px 0;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-			cursor: pointer;
-		}
-		.search-result:hover {
-			background-color: #f0f0f0;
-		}
-        </style>
 </head>
 <body>
 	<div class="wrapper">
@@ -30,13 +15,32 @@
 			<img src="../assets/img/blog/pocket/light/logo.png" width="80%" height="80%">
 		</div>
 		<div class="tab-buttons">
-			<button class="tab-btn" content-id="home">Home</button>
-			<button class="tab-btn" content-id="search">Search SPACEs</button>
+			<button class="tab-btn" content-id="home">
+				<img alt="House" class="icon pixelated" src="../assets/img/blog/pocket/light/home.png">Home</a>
+			</button>
+			<button class="tab-btn" content-id="sign">
+				<img alt="User Add" class="icon pixelated" src="../assets/img/blog/pocket/light/add.png">Sign Up/In</a>
+			</button>
+			<button class="tab-btn" content-id="search">
+				<img alt="Magnifying Glass" class="icon pixelated" src="../assets/img/blog/pocket/light/magnifier.png">Search SPACEs</a>
+			</button>
 		</div>
 		<div class="tab-contents">
 			<div class="content show" id="home">
-				<p>Welcome to POCKETSPACE!</p>
+				<div class="alert">
+					<p>While POCKETSPACE's servers have been shut down in 2014, we have decided to archive all public SPACEs for your viewing pleasure. You cannot sign up to POCKETSPACE anymore, but we'll keep your corner of the web here as a "thank you" letter for using our services for so long.</p>
+					<p>See you on the flipside!</p>
+				</div>
+				<p>We at POCKETSPACE value an entirely customized experience for our users.</p>
+				<p>Take blogging to its next level by using our powerful tools and make sure you leave your own, unique mark on the web!</p>
 			</div>
+			
+			<div class="content" id="sign">
+				<div class="alert">
+					<p>You cannot log in or sign up into POCKETSPACE.</p>
+				</div>
+			</div>
+
 			<div class="content" id="search">
 				<div class="input-group">
 					<input id="search-spaces" type="text" class="input-field" placeholder="Search SPACEs...">
@@ -54,11 +58,19 @@
 
 	<script>
 		const blogs = [
-			{ name: "Galacta Blazing", path: "galactablazing/" },
-			{ name: "The Mad Game", path: "themadgame/" },
-			{ name: "Dummy Blog 1", path: "#" },
-			{ name: "Dummy Blog 2", path: "#" },
-			{ name: "Dummy Blog 3", path: "#" },
+			{ name: "cattyncatti", path: "#" },
+			{ name: "galactablazing", path: "galactablazing/" },
+			{ name: "midorifire", path: "#" },
+			{ name: "romeow", path: "#" },
+			{ name: "skateboards", path: "#" },
+			{ name: "themadgame", path: "themadgame/" },
+			{ name: "spacer000111222", path: "#" },
+			{ name: "spacer222111000", path: "#" },
+			{ name: "spacer333444555", path: "#" },
+			{ name: "spacer555444333", path: "#" },
+			{ name: "spacer666777888", path: "#" },
+			{ name: "spacer888777666", path: "#" },
+			{ name: "spacer999999999", path: "#" },
 		];
 
 		document.getElementById("search-spaces").addEventListener("input", function () {
@@ -76,12 +88,13 @@
 					if (blog.path !== "#") {
 						window.location.href = blog.path; // Redirect for real blogs
 					} else {
-						alert(`Clicked on: ${blog.name}`); // Dummy behavior
+						//
 					}
 				});
 				resultsContainer.appendChild(blogDiv);
 			});
 		});
 	</script>
+	<script src="../js/tabs.js"></script>
 </body>
 </html>
