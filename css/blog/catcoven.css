@@ -11,6 +11,10 @@ h1, h2, h3 {
     font-family: "Garamond", serif; 
 }
 
+.comments-footer a {
+    color: #4643a1;
+}
+
 .header {
     background: black;
 }
