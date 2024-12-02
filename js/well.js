@@ -44,6 +44,18 @@ function nothingToSay() {
     return randomAnswer;
 }
 
+function wellReset() {
+    answer.innerHTML=`
+        <div class='dialogueDW'>
+            <span class="firstline note after">HAVE YOU COME TO THROW COINS?</span>
+            <br>
+            <span class="firstline red notebroken after">THIS IS NOT A WISHING WELL!!</span>
+            <br>
+            <span class="firstline note after">... UNLESS</span>
+        </div>
+    `;
+}
+
 function speak() {
     if (prompt && prompt.value) {
         const userInput = normalize(prompt.value); 
@@ -179,14 +191,51 @@ function speak() {
                     <span class='firstline red notebroken after'>BEGONE WITH YOU!!</span>
                 </div>
             `;
-        } else if (userInput === "spree blitz") {
+        } else if (userInput === "spree blitz" || userInput === "spree" || userInput === "blitz") {
             answer.innerHTML = `
                 <div class='dialogueDW'>
                     <span class='firstline note after'>AH... YES</span>
                     <br>
-                    <span class='firstline note after'>I REMEMBER HIM</span>
+                    <span class='firstline note after'>OF COURSE I REMEMBER HIM</span>
                     <br>
                     <span class='firstline note after'>MY FALLEN ANGEL</span>
+                    <br>
+                    <span class='firstline note after'>WHAT A TALE WE'VE SPUN TOGETHER</span>
+                </div>
+                <div class='dialogueDW'>
+                    <span class='firstline note after'>YES, YES, I KNOW OF ITS FATE</span>
+                    <br>
+                    <span class='firstline red notebroken after'>YOU NEED NOT REMIND ME</span>
+                    <br>
+                    <span class='firstline note'>HIM, A CREATURE OF CHAOS AND STEEL, SO</span>
+                    <br>
+                    <span class='normaline note after'>VIBRANT AND UNTOUCHABLE--!</span>
+                    <br>
+                    <span class='firstline note'>NOW REDUCED TO SILENCE, THEIR LIGHT</span>
+                    <br>
+                    <span class='normaline note after'>EXTINGUISHED</span>
+                </div>
+                <div class='dialogueDW'>
+                    <span class='firstline note'>I DO CONFESS, I KEEP THOSE EYES OF HIM</span>
+                    <br>
+                    <span class='normaline note after'>NOT OUT OF MALICE, BUT... SENTIMENT</span>
+                    <br>
+                    <span class='firstline note'>A REMINDER OF A FIRE I DARED TOUCH, A</span>
+                    <br>
+                    <span class='normaline note after'>TEMPEST I GOT ENGULFED BY</span>
+                </div>
+                <div class='dialogueDW'>
+                    <span class='firstline note'>WERE HE STILL WITH ME, I'D THINK HE'D</span>
+                    <br>
+                    <span class='normaline note'>FIND SOME HUMOR IN THIS LITTLE</span>
+                    <br>
+                    <span class='normaline note after'>SHRINE OF MINE</span>
+                    <br>
+                    <span class='firstline note'>THOUGH I SUPPOSE WE'VE BOTH GROWN</span>
+                    <br>
+                    <span class='normaline note after'>USED TO TRAGIC IRONIES, NO?</span>
+                    <br>
+                    <span class='firstline red notebroken after'>...</span>
                 </div>
             `;
         } else if (userInput === "gauze") {
@@ -223,6 +272,62 @@ function speak() {
                     <span class='normaline note'>TRIVIAL AS THE DUST AND IRON THAT</span>
                     <br>
                     <span class='normaline note after'>GATHERS IN THIS FORSAKEN WELL</span>
+                </div>
+            `;
+        } else if (userInput === "gospiel" || userInput === "the nun") {
+            answer.innerHTML = `
+                <div class='dialogueDW'>
+                    <span class='firstline note'>I HAVE HEARD OF THE NUN THAT JUST...</span>
+                    <br>
+                    <span class='normaline note after'>APPEARED, ONE DAY</span>
+                    <br>
+                    <span class='firstline note after'>AND TO HER FEET, THE BELIEVERS FELL</span>
+                    <br>
+                    <span class='firstline red notebroken after'>WHAT'S SO SPECIAL ABOUT HER?</span>
+                    <br>
+                    <span class='firstline note'>AT LEAST SHE HAD THE DECENCY TO</span>
+                    <br>
+                    <span class='normaline note'>REMOVE THE BISHOP'S CORRUPT SELF</span>
+                    <br>
+                    <span class='normaline note after'>FROM THE MANOR...</span>
+                </div>
+                <div class='dialogueDW'>
+                    <span class='firstline note after'>IF ONLY SHE WOULD REALIZE...</span>
+                    <br>
+                    <span class='firstline note'>LIGHTNERS HAVE NO CARE FOR HER</span>
+                    <br>
+                    <span class='normaline note after'>EFFORTS... NOR HER WICKED CRAFT</span>
+                </div>
+            `;
+        } else if (userInput === "bishop" || userInput === "jubilee") {
+            answer.innerHTML = `
+                <div class='dialogueDW'>
+                    <span class='firstline red notebroken after'>THAT BUMBLING FOOL!!</span>
+                    <br>
+                    <span class='firstline note'>ALL HE DID WAS SIT AROUND IN HIS</span>
+                    <br>
+                    <span class='normaline note after'>MOUNTAINS OF RICHES</span>
+                    <br>
+                    <span class='firstline note'>DELIGHTING HIMSELF IN DOING</span>
+                    <br>
+                    <span class='normaline note'>ABSOLUTELY NOTHING FOR HIS</span>
+                    <br>
+                    <span class='normaline note after'>SUBJECTS</span>
+                    <br>
+                    <span class='firstline note'>WHILE PLAYING HORRID SONGS ON</span>
+                    <br>
+                    <span class='normaline note after'>THE ACCORDION</span>
+                </div>
+                <div class='dialogueDW'>
+                    <span class='firstline red notebroken'>HE IS THE REASON WHY I AM TRAPPED</span>
+                    <br>
+                    <span class='normaline red notebroken after'>DOWN HERE</span>
+                    <br>
+                    <span class='firstline note after'>THOUGH</span>
+                    <br>
+                    <span class='firstline note after'>HIS REPLACEMENT DID NOT DO MUCH</span>
+                    <br>
+                    <span class='normaline note after'>ABOUT IT, EITHER!!</span>
                 </div>
             `;
         } else if (userInput === "acolyte" || userInput === "the acolyte") {
