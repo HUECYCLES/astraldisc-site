@@ -70,7 +70,7 @@
 						}
 					]
 				},
-				"description": "Those who knew Halojack recall that she used to be a mere journalist in News Valley. One day, she left the monotony of her job to try her luck in Rook Technologies as an intern.\n\nAs things went wrong, and with a <a href=\"/ch3/rapture\">strange force</a> seemingly guiding her, Halojack had turned to broadcast hijacking as a way to spread deranged messages across Telehaven.\n\nAfter being fired and pursued, her reign of terror had finally faded into obscurity, even though some swear they can catch strange signal intrusions from the corner of their eyes.",
+				"description": "Those who knew Halojack recall that she used to be a mere journalist in News Valley. One day, she left the monotony of her job to try her luck in Rook Technologies as an intern.\n\nAs things went wrong, and with a <a href=\"/ch3/rapture\">strange force</a> seemingly guiding her, Halojack had turned to broadcast hijacking as a way to spread deranged messages across Telehaven.\n\nAfter being fired and pursued, her reign of terror had finally faded into obscurity, even though some swear they can catch strange <a href=\"/ch3/signal\">signal intrusions</a> from the corner of their eyes.",
 				"trivia": [
 					"Halojack is an avid people watcher. She enjoys observing others and keeping herself updated on their lives... even if they never notice.",
 					"She has taken knitting as a hobby to avoid stress. All of her socks are handmade.",
@@ -96,7 +96,7 @@
 					"role": "Main Antagonist",
 					"object": "Angel Doll"
 				},
-				"description": "Gospiel is a frantic nun who appeared one day by the Great Pillars and swayed the locals with her unusual, powerful presence.\n\nThis ended up with the Bishop being cast aside, and Gospiel taking his manor and prestigious title to herself. Her sacred power comes from a strong prayer to a loved one's safety, and once she sees Noelle, the pieces start to fit together.",
+				"description": "Gospiel is a frantic nun who appeared one day by the Great Pillars and swayed the locals with her unusual, powerful presence.\n\nThis ended up with the Bishop being cast aside, and Gospiel taking his manor and prestigious title to herself. Her sacred power comes from a strong prayer to a loved one's safety, and once she sees <a href=\"/blog/holidaygirl1225\">Noelle</a>, the pieces start to fit together.",
 				"trivia": [
 					"Given her origins, Gospiel has a natural talent for painting and most of her powers are linked to art. She has turned the manor into her own gallery. Some say her paintings look almost TOO real...",
 					"Her favorite subject to paint is The Acolyte. They are very close.",
@@ -153,7 +153,7 @@
 						}
 					]
 				},
-				"description": "Beltrowel used to be a priest in Divine Manor. While being known as a holy man, his selfishness did not go unnoticed by a <a href=\"/ch4/wisdom\">strange visitor</a> who one day stepped foot into his confession booth.\n\nAfter that encounter, Beltrowel began to refuse his role to assist Lightners, preaching about a terrible calamity soon to come. Once word got out to the Bishop of a lunatic trying to offer \"salvation\", Beltrowel was swiftly decommissioned and trapped inside a well with a powerful incantation...",
+				"description": "Beltrowel used to be a priest in Divine Manor. While being known as a holy man, his selfishness did not go unnoticed by a <a href=\"/ch4/wisdom\">strange visitor</a> who one day stepped foot into his confession booth.\n\nAfter that encounter, Beltrowel began to refuse his role to assist Lightners, preaching about a terrible calamity soon to come. Once word got out to the Bishop of a lunatic trying to offer \"salvation\", Beltrowel was swiftly decommissioned and trapped inside a <a href=\"/ch4/well\">well</a> with a powerful incantation...",
 				"trivia": [
 					"Beltrowel has a great singing voice. In fact, he speaks very sing-songy.",
 					"He finds flower baths to be relaxing. He usually picks red roses, his favorite flower — his bathtub often stained with red.",
@@ -261,7 +261,7 @@
 				"trivia": [
 					"A true coffee addict. It helps her function.",
 					"Not only her relationship with Noelle is shaken, but her marriage as well.",
-					"Always busy. Always.",
+					"Always <a href=\"/gov\">busy</a>. Always.",
 					"She loves her family so much it hurts."
 				],
 				"image": {
@@ -329,7 +329,7 @@
 					"role": "Secondary Antagonist",
 					"object": ""
 				},
-				"description": "Intrinsically connected to the DEVICE, no one knows where exactly this creature came from. Its glitchy body can disperse itself into arachnids that form webs wherever they see fit, and all that is left is a FACE... staring back at you.\n\nA trickster at heart, this FRIEND will be yours for all ETERNITY.",
+				"description": "Intrinsically connected to the DEVICE, no one knows where exactly this creature came from. Its glitchy body can disperse itself into arachnids that form webs wherever they see fit, and all that is left is a FACE... <a href=\"/goner/friend\">staring back at you</a>.\n\nA trickster at heart, this FRIEND will be yours for all ETERNITY.",
 				"trivia": [
 					"Those who go glitch hunting get to see them first.",
 					"Not a cat! A raccoon that hangs around trash.",
@@ -389,7 +389,7 @@
 					"role": "Main Antagonist",
 					"object": ""
 				},
-				"description": "Opened the Chapter 2, 5 and 7's Dark Fountains.\n\nUnder the title of The Roaring Knight, Comet Holiday has made it her goal to find her missing daughter, make sure her husband lives through his illness and mend her relationship with Noelle.\n\nGuided by the love she has for her family, and taking it to the extreme, she has been opening fountains in order to amass power and bring forth a Titan, who will then aid her endless search through the deepest shadows...\n\nMeanwhile, through her incessant prayers to the Angel and her own WISHPOWER being attended, the ANGEL'S HEAVEN is formed, its gateways leading towards a patch of utopic land made specifically for Noelle and Rudy... that while perfect on the surface, is nothing but an illusionary shelter.",
+				"description": "Opened the Chapter 2, 5 and 7's Dark Fountains.\n\nUnder the title of The Roaring Knight, Comet Holiday has made it her goal to find her missing daughter, make sure her husband lives through his illness and mend her relationship with Noelle.\n\nGuided by the love she has for her family, and taking it to the extreme, she has been opening fountains in order to amass power and bring forth a Titan, who will then aid her endless search through the deepest shadows...\n\nMeanwhile, through her incessant prayers to the <a href=\"/goner/angel\">Angel</a> and her own WISHPOWER being attended, the ANGEL'S HEAVEN is formed, its gateways leading towards a patch of utopic land made specifically for Noelle and Rudy... that while perfect on the surface, is nothing but an illusionary shelter.",
 				"trivia": [
 					"She has a bow and arrow as her Dark World weapon, and fires comets from it. Its Light World counterpart are scissors, which she also uses to open fountains.",
 					"Her element is pure cosmic power, which shapes most of her attacks."
