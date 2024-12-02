@@ -19,94 +19,216 @@
 		<init-component></init-component>
 		<script src="../../js/components/init.js"></script>
 		<script src="../../js/jquery.js"></script>
+
 		<div class="wrapper">
-			<div class="tab-buttons">
-				<div class="spacename center">
-					<img class="pixelated" src="../../assets/img/blog/pollyanna/spacename.gif" width="50%" height="50%">
-				</div>
-				<button class="tab-btn" content-id="info">
-					<img alt="Question Mark" class="icon pixelated" src="../../assets/img/blog/pocket/dark/question.png">User Info</a>
-				</button>
-				<button class="tab-btn" content-id="friends">
-					<img alt="User Add" class="icon pixelated" src="../../assets/img/blog/pocket/dark/add.png">Friends</a>
-				</button>
-			</div>
+			<!-- Left Sidebar -->
+			<aside class="sidebar left">
+				<section class="playlist">
+					<h2>polly's playlist</h2>
+					<img src="../../assets/img/blog/pollyanna/playlist.png" alt="Playlist" class="playlist-image">
+					<p>(under construction!)</p>
+				</section>
 
-			<div class="tab-contents">
-				<div class="content center show" id="info">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-				</div>
+				<section class="daily-inspiration">
+					<h2>daily inspiration</h2>
+					<blockquote>"art should comfort the disturbed and disturb the comfortable."</blockquote>
+				</section>
 
-				<div class="content" id="friends">
-					<!-- This ain't a placeholder, I can see Polly having her friends list be private -->
-					<div class="alert">
-						<p>This user's friends list is PRIVATE.</p>
+				<section class="manifesto">
+					<h2>polly's manifesto</h2>
+					<ul>
+						<li>life is chaos.</li>
+						<li>make art from the rubble.</li>
+						<li>resist conformity.</li>
+						<li>express yourself unapologetically.</li>
+					</ul>
+					<a href="#">read more</a>
+				</section>				
+	
+				<section class="graffiti-canvas">
+					<h2>graffiti canvas</h2>
+					<canvas id="graffitiCanvas" width="200" height="200" style="border:1px solid #000;"></canvas>
+					<p>draw smth cool</p>
+					<p>select a color:</p>
+					<input type="color" id="colorPicker"/>
+				</section>
+			</aside>
+
+			<main>
+				<!-- Tabs -->
+				<div class="tab-buttons">
+					<div class="spacename center">
+						<img class="pixelated" src="../../assets/img/blog/pollyanna/spacename.gif" width="50%" height="50%">
 					</div>
+					<button class="tab-btn" content-id="info">
+						<img alt="Question Mark" class="icon pixelated" src="../../assets/img/blog/pocket/dark/question.png">User Info</a>
+					</button>
+					<button class="tab-btn" content-id="friends">
+						<img alt="User Add" class="icon pixelated" src="../../assets/img/blog/pocket/dark/add.png">Friends</a>
+					</button>
 				</div>
-			</div>
 
-			<div class="posts">
-				<div class="post">
-					<div class="title">
-						Placeholder title
-					</div>
-					<div class="postbody">
+				<!-- About -->
+				<div class="tab-contents">
+					<div class="content show about" id="info">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							yo, welcome to my little corner of the internet! i'm pollyanna (but just call me polly), and this blog? it's basically my personal stash of random stuff (yeah, i'm pretty sure you can tell i'm into goblincore). everything you see here is built by yours truly (okay, and maybe a little help from some cool code i found online...don't tell anyone)
+
+							<br><br>
+							
+							i'm not great at intros, but here goes: i'm a dreamer with a bunch of ideas, and if you're reading this, you probably wanna know a little about me. so, deal with it, i guess?
+							
+							<br><br>
+							
+							i'm an artist, a grunge fashion lover, and a total tech nerd who spends waaaay too much time modding old consoles and messing around with emulators. sometimes i feel like i should've been born in the 90s (except, ya know, the whole "no internet" thing)
+							
+							<br><br>
+							
+							when i'm not doodling or spray-painting some old wall (for art, not vandalism... mostly), i'm jamming out to punk music or messing around with tech that's older than me
+							
+							<br><br>
+
+							oh, i also love binge-watching movies. seriously, i'm obsessed... (please ask me about my favorite directors!!)  
+							
+							<br><br>
+							i'll totally not gonna judge your taste in movies (ok, maybe just a little)
+							
+							<br><br>
+							
+							you could say i'm "politically intense" i like thinking about how things could be better, and how we all have a role in making the world suck a little less. i'm all about being yourself, standing up for what you believe in, and just generally not letting anyone tell you who you are. life's too short for that crap
+							
+							<br><br>
+							
+							so as you can notice from this unnecessary messy bio, this blog is kinda just my brain thrown up onto a webpage. expect random thoughts, art dumps, tech stuff, movie rants, and probably a few rants about how capitalism totally sucks ('cause it does)
+							
+							<br><br>
+							
+							thanks for stopping by! feel free to look around or drop a comment if you vibe with anything. unless you're a fascist? then you can <strong class="redacted-text">FUCK OFF</strong>
+							
+							<br><br>
+
+							polly out ✌️
 						</p>
 					</div>
-					<div class="footer">
-						<div class="date">
-							<img alt="Clock" class="icon pixelated" src="../../assets/img/blog/pocket/dark/clock.png">Posted at: 12:00 AM
-						</div>
-						<div class="hashtag">
-							<img alt="Calendar" class="icon pixelated" src="../../assets/img/blog/pocket/dark/calendar.png">Categories: <a class="disabled" href="#0">#placeholder-tag</a>, <a class="disabled" href="#0">#tag</a>, <a class="disabled" href="#0">#another-tag</a>
-						</div>
-						<div class="comment-count">
-							<img alt="Speech Bubble" class="icon pixelated" src="../../assets/img/blog/pocket/dark/comments.png">
-							<button class="comment-btn">Comments (2)</button>
-						</div>
-					</div>
 
-					<div class="comments">
-						<div class="comment">
-							<div class="author">
-								<img alt="User" class="icon pixelated" src="../../assets/img/blog/pocket/dark/user.png">
-								<a class="disabled">galactablazing</a>
-								<div class="timestamp">At 12:00 AM</div>
-							</div>
-							<div class="comment-body">
-								<p>Placeholder comment</p>
-							</div>
-						</div>
-
-						<div class="comment reply">
-							<div class="author">
-								<img alt="User" class="icon pixelated" src="../../assets/img/blog/pocket/dark/user.png">
-								<a class="disabled">hplays</a>
-								<div class="timestamp">Replied at 12:00 AM</div>
-							</div>
-							<div class="comment-body">
-								<p>Placeholder comment reply</p>
-							</div>
+					<div class="content" id="friends">
+						<!-- This ain't a placeholder, I can see Polly having her friends list be private -->
+						<div class="alert">
+							<p>This user's friends list is PRIVATE.</p>
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="header logo right">
-				<a href="../../pocket/">
-					<img src="../../assets/img/blog/pocket/dark/logo.png" width="20%" height="20%">
-				</a>
-			</div>
-        </div>
+				<!-- Main Blog Content -->
+				<section class="posts">
+
+						<!-- POST 1 -->
+						<article class="post">
+							<div class="title">
+								<a href="#">console crafting tutorials (DIY)</a>
+							</div>
+							<div class="postbody">
+								<p>check out how i create custom consoles step-by-step, with pixel art diagrams included</p>
+							</div>
+
+							<div class="footer">
+								<div class="date">
+									<img alt="Clock" class="icon pixelated" src="../../assets/img/blog/pocket/dark/clock.png">Posted at: 12:00 AM
+								</div>
+								<div class="hashtag">
+									<img alt="Calendar" class="icon pixelated" src="../../assets/img/blog/pocket/dark/calendar.png">Category: <a class="disabled" href="#0">#tech</a>
+								</div>
+								<div class="comment-count">
+									<img alt="Speech Bubble" class="icon pixelated" src="../../assets/img/blog/pocket/dark/comments.png">
+									<button class="comment-btn">Comments (2)</button>
+								</div>
+							</div>
+
+							<div class="comments">
+								<div class="comment">
+									<div class="author">
+										<img alt="User" class="icon pixelated" src="../../assets/img/blog/pocket/dark/user.png">
+										<a class="disabled">galactablazing</a>
+										<div class="timestamp">At 12:00 AM</div>
+									</div>
+									<div class="comment-body">
+										<p>comment</p>
+									</div>
+								</div>
+				
+								<div class="comment reply">
+									<div class="author">
+										<img alt="User" class="icon pixelated" src="../../assets/img/blog/pocket/dark/user.png">
+										<a class="disabled">hplays</a>
+										<div class="timestamp">Replied at 12:00 AM</div>
+									</div>
+									<div class="comment-body">
+										<p>comment</p>
+									</div>
+								</div>
+							</div>
+						</article>
+						
+						<!-- POST 2 -->
+						<article class="post">
+							<div class="title">
+								<a href="#">grunge/punk fashion inspiration</a>
+							</div>
+							<div class="postbody">
+								<p>my favorite thrift shop finds and this month's standout look</p>
+							</div>
+
+							<div class="footer">
+								<div class="date">
+									<img alt="Clock" class="icon pixelated" src="../../assets/img/blog/pocket/dark/clock.png">Posted at: 12:00 AM
+								</div>
+								<div class="hashtag">
+									<img alt="Calendar" class="icon pixelated" src="../../assets/img/blog/pocket/dark/calendar.png">Category: <a class="disabled" href="#0">#fashion</a>
+								</div>
+								<div class="comment-count">
+									<img alt="Speech Bubble" class="icon pixelated" src="../../assets/img/blog/pocket/dark/comments.png">
+									<button class="comment-btn">Comments (0)</button>
+								</div>
+							</div>
+						</article>
+				
+						<!-- POST 3 -->
+						<article class="post">
+							<div class="title">
+								<a href="#">art and graffiti gallery</a>
+							</div>
+							<div class="postbody">
+								<p>here i talk about my favorite street artists and tagged walls</p>
+							</div>
+						
+							<div class="footer">
+								<div class="date">
+									<img alt="Clock" class="icon pixelated" src="../../assets/img/blog/pocket/dark/clock.png">Posted at: 12:00 AM
+								</div>
+								<div class="hashtag">
+									<img alt="Calendar" class="icon pixelated" src="../../assets/img/blog/pocket/dark/calendar.png">Category: <a class="disabled" href="#0">#art</a>
+								</div>
+								<div class="comment-count">
+									<img alt="Speech Bubble" class="icon pixelated" src="../../assets/img/blog/pocket/dark/comments.png">
+									<button class="comment-btn">Comments (0)</button>
+								</div>
+							</div>
+						</article>
+				</section>
+	
+				<div class="header logo right">
+					<a href="../../pocket/">
+						<img src="../../assets/img/blog/pocket/dark/logo.png" width="20%" height="20%">
+					</a>
+				</div>
+			</main>
+        </div> <!-- end of .wrapper -->
 
 		<cookies-component></cookies-component>
 		<script src="../../js/components/cookies.js"></script>
 		
 		<script src="../../js/blog/comments.js"></script>
 		<script src="../../js/tabs.js"></script>
+		<script src="../../js/drawcanvas.js"></script>
 	</body>
 </html>
