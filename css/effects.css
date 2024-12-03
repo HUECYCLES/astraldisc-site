@@ -51,7 +51,7 @@ body.image-page {
     max-width: 100%;
 }
 
-#img1 {
+#img1, #img2 {
 	cursor: var(--cursor-main);
 }
 

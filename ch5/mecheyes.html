@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta property="og:title" content="ASTRAL DISC">
+		<meta property="og:url" content="https://astraldisc.com/">
+		<meta property="og:description" content="A Deltarune Chapters 3-8 take.">
+		<meta property="og:image" content="https://astraldisc.com/assets/img/disc/new_shooting_star.png">
+		<title>Might belong to someone else.</title>
+		<link rel="icon" type="image/png" href="../assets/img/favicon/astraldisc.png" />
+		<!-- CSS -->
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" media="all">
+		<link href="../css/templates.css" rel="stylesheet" type="text/css" media="all">
+		<link href="../css/disc/main.css" rel="stylesheet" type="text/css" media="all">
+		<link href="../css/effects.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+	<body class="image-page">
+		<init-component></init-component>
+		<script src="../js/components/init.js"></script>
+
+		<div class="resize-container">
+			<div id="img">
+				<img
+					id="img1"
+					src="../assets/img/disc/ch5/mecheyes.png"
+                    class="pixelated"
+					width="20%"
+					height="20%"
+					alt="Mechanical Eyes"
+					onclick="imgChange()"
+				>
+				<img
+					id="img2"
+					src="../assets/img/disc/ch5/mecheyes_beltrowel.png"
+                    class="pixelated"
+					width="80%"
+					height="80%"
+					alt="Mechanical Eyes, Beltrowel"
+					onclick="window.location = '../../ch4/well';"
+				>
+			</div>
+		</div>
+
+		<script>
+			var img = document.getElementById("img1");
+			var img2 = document.getElementById("img2");
+			img2.style.display="none";
+			var switchpull = new Audio("../assets/audio/switchpull.ogg");
+
+			function imgChange() {
+				if (Math.random() < 0.85) {
+					if (img.getAttribute('src') === "../assets/img/disc/ch5/mecheyes.png") {
+						switchpull.play();
+						img.src = "../assets/img/disc/ch5/mecheyes_on.gif";
+						img.alt="Mechanical Eyes, Flickering";
+						console.log(img.src)
+					} else {
+						switchpull.play();
+						img.src = "../assets/img/disc/ch5/mecheyes.png";
+						img.alt="Mechanical Eyes";
+					}
+				} else {
+					if (img.getAttribute('src') === "../assets/img/disc/ch5/mecheyes.png") {
+						img.style.display="none";
+						img2.style.display="block";
+					}
+				}
+			}
+		</script>
+
+		<cookies-component></cookies-component>
+		<script src="../../js/components/cookies.js"></script>
+	</body>
+</html>
