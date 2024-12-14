@@ -1,145 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complaint Form</title>
-    <link rel="icon" type="image/png" href="../assets/img/gov/icon.png" />
-    <!-- CSS -->
-    <link href="../css/reset.css" rel="stylesheet" type="text/css" media="all">
-    <link href="../css/templates.css" rel="stylesheet" type="text/css" media="all">
-    <link href="../css/gov/gov.css" rel="stylesheet" type="text/css" media="all">
-    <script src="../js/gov/complaints.js"></script>
-</head>
-<body>
-    <init-component></init-component>
-    <script src="../js/components/init.js"></script>
-
-    <div class="wrapper">
+    <head>
+        <!-- Essential -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         
-        <div class="complaint-container">
-            <fieldset>
-                <legend>Complaint Form</legend>
-                <div class="fieldset-container">
-                    <fieldset>
-                        <legend>Case Number</legend>
-                        <div class="form-group">
-                            <input type="text" placeholder="Enter Case Number" disabled>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Case Status</legend>
-                        <div class="form-group">
-                            <input type="text" placeholder="Enter Case Status" disabled>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Date</legend>
-                        <div class="form-group">
-                            <input type="text" placeholder="Enter Date" disabled>
-                        </div>
-                    </fieldset>
-                </div>
-            </fieldset>
-        </div>
+        <!-- For Search Engines -->
+        <meta name="description" content="A DELTARUNE Chapters 3-8 take, made for fun.">
+        <meta name="keywords" content="deltarune, deltarune fanmade, deltarune fanproject">
 
-        <div class="complaint-container">
-            <fieldset>
-                <legend>Complainer's Details</legend>
-                <div class="fieldset-container">
-                    <fieldset>
-                        <legend>Name</legend>
-                        <div class="form-group">
-                            <input type="text" placeholder="Enter Name" disabled>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Occupation</legend>
-                        <div class="form-group">
-                            <input type="text" placeholder="Enter Occupation" disabled>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Email</legend>
-                        <div class="form-group">
-                            <input type="email" placeholder="Enter Email" disabled>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Phone No.</legend>
-                        <div class="form-group">
-                            <input type="text" placeholder="Enter Phone Number" disabled>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Address</legend>
-                        <div class="form-group">
-                            <input type="text" placeholder="Enter Address" disabled>
-                        </div>
-                    </fieldset>
-                </div>
-            </fieldset>
-        </div>
+        <!-- Card -->
+        <meta property="og:title" content="ASTRAL DISC">
+        <meta property="og:url" content="https://astraldisc.com/">
+        <meta property="og:description" content="A DELTARUNE Chapters 3-8 take.">
+        <meta property="og:image" content="https://astraldisc.com/assets/img/disc/new_shooting_star.png">
+        <meta property="og:type" content="website">
 
-        <div class="complaint-container">
-            <fieldset>
-                <legend>Complainer's Complaint</legend>
-                <div class="form-group">
-                    <label for="complainee">Complainee</label>
-                    <input type="text" id="complainee" placeholder="Enter Complainee Name" disabled>
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@huecycles">
+        <meta name="twitter:title" content="ASTRAL DISC">
+        <meta name="twitter:description" content="A DELTARUNE Chapters 3-8 take.">
+        <meta name="twitter:image" content="https://astraldisc.com/assets/img/disc/new_shooting_star.png">
 
-                    <label for="summary">Summary</label>
-                    <input type="text" id="summary" placeholder="Enter Summary of Complaint" disabled>
+        <!-- SEO stuff -->
+        <meta name="revisit-after" content="7 days">
+        <meta name="distribution" content="global">
+        <meta name="robots" content="noindex, nofollow"> <!-- noindex, nofollow for secret pages -->
 
-                    <label for="details">Details</label>
-                    <textarea class="auto-resize" id="details" placeholder="Enter Complaint Details" disabled></textarea>
-                </div>
-            </fieldset>
-        </div>
-
-        <div class="complaint-container">
-            <fieldset>
-                <legend>Mayoral Staff Response</legend>
-                <div class="response-section">
-                    <fieldset>
-                        <legend>Is the complaint justified?</legend>
-                        <div class="radio-group">
-                            <input type="radio" name="justified" value="yes" disabled> Yes
-                            <input type="radio" name="justified" value="no" disabled> No
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Will there be any follow up?</legend>
-                        <div class="radio-group">
-                            <input type="radio" name="follow_up" value="yes" disabled> Yes
-                            <input type="radio" name="follow_up" value="no" disabled> No
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Is the complainer satisfied?</legend>
-                        <div class="radio-group">
-                            <input type="radio" name="satisfied" value="yes" disabled> Yes
-                            <input type="radio" name="satisfied" value="no" disabled> No
-                        </div>
-                    </fieldset>
-                </div>
-                <div class="form-group">
-                    <label for="final-comments">Response</label>
-                    <textarea class="auto-resize" id="final-comments" placeholder="Enter Final Comments" disabled></textarea>
-                </div>
-            </fieldset>
-        </div>
+        <!-- Title & Favicon -->
+        <title>Complaint Form</title>
+        <link rel="icon" type="image/png" href="../assets/img/gov/icon.png" />
         
-        <!-- Print Button -->
-        <div class="print-container">
-            <button class="print-btn" onclick="printDoc()">Print Complaint</button>
+        <!-- CSS -->
+        <link href="../css/reset.css" rel="stylesheet" type="text/css" media="all">
+        <link href="../css/templates.css" rel="stylesheet" type="text/css" media="all">
+        <link href="../css/gov/gov.css" rel="stylesheet" type="text/css" media="all">
+        <script src="../js/gov/complaints.js"></script>
+    </head>
+    <body>
+        <init-component></init-component>
+        <script src="../js/components/init.js"></script>
+
+        <div class="wrapper">
+            
+            <div class="complaint-container">
+                <fieldset>
+                    <legend>Complaint Form</legend>
+                    <div class="fieldset-container">
+                        <fieldset>
+                            <legend>Case Number</legend>
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter Case Number" disabled>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Case Status</legend>
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter Case Status" disabled>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Date</legend>
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter Date" disabled>
+                            </div>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="complaint-container">
+                <fieldset>
+                    <legend>Complainer's Details</legend>
+                    <div class="fieldset-container">
+                        <fieldset>
+                            <legend>Name</legend>
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter Name" disabled>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Occupation</legend>
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter Occupation" disabled>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Email</legend>
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter Email" disabled>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Phone No.</legend>
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter Phone Number" disabled>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Address</legend>
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter Address" disabled>
+                            </div>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="complaint-container">
+                <fieldset>
+                    <legend>Complainer's Complaint</legend>
+                    <div class="form-group">
+                        <label for="complainee">Complainee</label>
+                        <input type="text" id="complainee" placeholder="Enter Complainee Name" disabled>
+
+                        <label for="summary">Summary</label>
+                        <input type="text" id="summary" placeholder="Enter Summary of Complaint" disabled>
+
+                        <label for="details">Details</label>
+                        <textarea class="auto-resize" id="details" placeholder="Enter Complaint Details" disabled></textarea>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="complaint-container">
+                <fieldset>
+                    <legend>Mayoral Staff Response</legend>
+                    <div class="response-section">
+                        <fieldset>
+                            <legend>Is the complaint justified?</legend>
+                            <div class="radio-group">
+                                <input type="radio" name="justified" value="yes" disabled> Yes
+                                <input type="radio" name="justified" value="no" disabled> No
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Will there be any follow up?</legend>
+                            <div class="radio-group">
+                                <input type="radio" name="follow_up" value="yes" disabled> Yes
+                                <input type="radio" name="follow_up" value="no" disabled> No
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Is the complainer satisfied?</legend>
+                            <div class="radio-group">
+                                <input type="radio" name="satisfied" value="yes" disabled> Yes
+                                <input type="radio" name="satisfied" value="no" disabled> No
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="form-group">
+                        <label for="final-comments">Response</label>
+                        <textarea class="auto-resize" id="final-comments" placeholder="Enter Final Comments" disabled></textarea>
+                    </div>
+                </fieldset>
+            </div>
+            
+            <!-- Print Button -->
+            <div class="print-container">
+                <button class="print-btn" onclick="printDoc()">Print Complaint</button>
+            </div>
         </div>
-    </div>
 
-    <cookies-component></cookies-component>
-    <script src="../../js/components/cookies.js"></script>
+        <cookies-component></cookies-component>
+        <script src="../../js/components/cookies.js"></script>
 
-    <!-- Print Script -->
-    <script>function printDoc() { window.print(); }</script>
-</body>
+        <!-- Print Script -->
+        <script>function printDoc() { window.print(); }</script>
+    </body>
 </html>
