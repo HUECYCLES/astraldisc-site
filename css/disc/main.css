@@ -873,6 +873,40 @@ body.shadowcrystal {
 	pointer-events: none; 
 } */
 
+body.gauzereport {
+	background: black;
+    font-size: 16px;
+    margin: 40px;
+	text-align: justify;
+}
+
+#report {
+    font-family: monospace;
+    font-weight: normal;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+#report tr {
+    font-family: monospace;
+    text-align: left;
+    padding: 0;
+    font-size: 16px;
+    background-color: none;
+}
+
+#report th, #report td {
+    font-family: monospace;
+    text-align: left;
+    padding: 0;
+    font-size: 16px;
+    width: 80%;
+}
+
+#report tr:nth-child(even) {background-color: transparent;}
+#report tr:nth-child(odd) {background-color: transparent;}
+
 /******************************************************************************\
 *                               MEDIA QUERIES                                  *
 \******************************************************************************/
