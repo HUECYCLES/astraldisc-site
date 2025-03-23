@@ -15,10 +15,10 @@
 					"role": "Main Antagonist",
 					"object": "Toriel's TV"
 				},
-				"description": "The big boss of Rook Technologies (and all of Telehaven), M.I.K.E. never fails to bring your favorite gameshows to life! With his endless charisma, he can turn any situation thrown at him into an spectacle, while overworked employees suffer behind the scenes.\n\nOnce Kris opened the fountain, M.I.K.E. knew it was time to make them wish they would've carried out their little plan earlier. Maybe they can learn a thing or two about what it's like to fulfill someone else's legacy...",
+				"description": "The big boss of Rook Technologies (and all of Telehaven), M.I.K.E. never fails to bring your favorite gameshows to life! With his endless charisma, he can turn any situation thrown at him into an spectacle, while overworked employees suffer behind the scenes.\n\nOnce Kris opened the fountain, M.I.K.E. knew it was time to make them wish they would've carried out their little plan sooner. Maybe they can learn a thing or two about what it's like to fulfill someone else's legacy...",
 				"trivia": [
 					"M.I.K.E. values family the same way he values money.",
-					"He likes building dioramas and very tiny things. No one is supposed to know.",
+					"He likes building dioramas and very tiny things. No one is supposed to know about this silly hobby.",
 					"Still thinks about Tenna sometimes, and hates that."
 				],
 				"image": {
@@ -37,10 +37,10 @@
 					"role": "Secondary Antagonist...?",
 					"object": "Dreemurr Vintage Camera"
 				},
-				"description": "Nick L. Odeion knows everything there is to old-fashioned cinema and theater, and has an unique gift of displaying and controlling memories.\n\nHis objective is to make sure Kris and their friends traverse safely through the Metropolis, while avoiding trouble with M.I.K.E. There is, however, a lingering sadness that radiates through him, but it seems he will never tell you about any of that.",
+				"description": "Nick L. Odeion knows everything there is to know about old-fashioned cinema and theater, and has an unique gift of displaying and controlling memories.\n\nHis objective is to make sure Kris and their friends traverse safely through the Metropolis, while avoiding trouble with M.I.K.E. There is, however, a lingering sadness that radiates through him... but it seems he might never tell you about any of that.",
 				"trivia": [
 					"Nick's blood has high levels of nitrate which results in him easily getting drunk on vinegar.\nLet's just hope the guy isn't flammable...",
-					"Nick is unable to see any colour, viewing the world through a sepia lens.",
+					"Nick is unable to see any color, viewing the world through a sepia lens.",
 					"Nick is what you would call a \"memory vampire\", feeding on positive memories."
 				],
 				"image": {
@@ -98,10 +98,10 @@
 				},
 				"description": "Gospiel is a frantic nun who appeared one day by the Great Pillars and swayed the locals with her unusual, powerful presence.\n\nThis ended up with the Bishop being cast aside, and Gospiel taking his manor and prestigious title to herself. Her sacred power comes from a strong prayer to a loved one's safety, and once she sees <a href=\"/blog/holidaygirl1225\">Noelle</a>, the pieces start to fit together.",
 				"trivia": [
-					"Given her origins, Gospiel has a natural talent for painting and most of her powers are linked to art. She has turned the manor into her own gallery. Some say her paintings look almost TOO real...",
+					"Gospiel has a natural talent for painting and most of her powers are linked to art. She has turned the manor into her own gallery. Some say her paintings look almost TOO real...",
 					"Her favorite subject to paint is The Acolyte. They are very close.",
-					"Don't be fooled by her caring and kind demeanor. She has favorites.",
-					"Loves wine, but you will never see her drunk in public."
+					"Don't be fooled by her caring and kind demeanor. She picks favorites.",
+					"Loves wine, but you will never see her drink in public."
 				],
 				"image": {
 					"default": "../assets/img/disc/ch4/gospiel.png",
@@ -123,7 +123,7 @@
 				"description": "A mysterious Acolyte that can often be found close to Gospiel. After the Bishop's removal from power, she made it her purpose to protect the nun from potential danger and give her a second opinion where needed.\n\nWhile harsh, she does it all with a reason and might actually be quite sweet once you peel back the layers.",
 				"trivia": [
 					"Always seen wearing an odd eyemask. What is she hiding?",
-					"Has an old fashioned way of speaking, giving Rouxls Kaard a run for his money.",
+					"Has a very old fashioned way of speaking, giving Rouxls Kaard a run for his money.",
 					"While half of her face is covered, nothing seems to escape her cold gaze."
 				],
 				"image": {
@@ -153,12 +153,12 @@
 						}
 					]
 				},
-				"description": "Beltrowel used to be a priest in Divine Manor. While being known as a holy man, his selfishness did not go unnoticed by a <a href=\"/ch4/wisdom\">strange visitor</a> who one day stepped foot into his confession booth.\n\nAfter that encounter, Beltrowel began to refuse his role to assist Lightners, preaching about a terrible calamity soon to come. Once word got out to the Bishop of a lunatic trying to offer \"salvation\", Beltrowel was swiftly decommissioned and trapped inside a <a href=\"/ch4/well\">well</a> with a powerful incantation...",
+				"description": "Beltrowel used to be a priest in Divine Manor. While being known as a holy man, his selfishness did not go unnoticed by a <a href=\"/ch4/wisdom\">strange visitor</a> who one day stepped foot into his confession booth.\n\nFollowing the encounter, Beltrowel began to refuse his role to assist Lightners, preaching about a terrible calamity soon to come. Once word got out to the Bishop of a lunatic trying to offer \"salvation\" to fellow darkners, Beltrowel was swiftly decommissioned and left to drown inside a <a href=\"/ch4/well\">well</a> with a powerful incantation...",
 				"trivia": [
-					"Beltrowel has a great singing voice. In fact, he speaks very sing-songy.",
-					"He finds flower baths to be relaxing. He usually picks red roses, his favorite flower — his bathtub often stained with red.",
+					"Beltrowel has a great singing voice. He speaks very sing-songy.",
+					"Finds flower baths to be relaxing. Usually picks red roses, his favorite flower — his bathtub often stained with red.",
 					"Why serve Lightners when they care so little about you...? That's what he thinks.",
-					"Beltrowel excels at manipulation to get what he wants. Maybe one day, a fellow Darkner will agree to his plan..."
+					"Beltrowel excels at manipulation to get what he wants. Maybe one day, someone who understands what's to come will agree to his plan..."
 				],
 				"image": {
 					"default": "../assets/img/disc/ch4/beltrowel.png",
@@ -179,10 +179,12 @@
 					"role": "Main Antagonist",
 					"object": "Flying Coaster"
 				},
-				"description": "An adventurous and eccentric lady, Firefly cares deeply about keeping Dreamland running. She's absolutely determined to bring a smile to everyone's faces, even if it means a little danger is put into mix.\n\nTo Firefly, you can't truly have fun witout a spike of adrenaline... and that's why she always cooks up extravagant inventions to blow the Lightner visitors away!",
+				"description": "An adventurous and eccentric lady, Firefly cares deeply about keeping Dreamland running. She's determined to bring a smile to everyone's faces, even if it means a little danger is put into the mix.\n\nTo Firefly, you can't truly have fun witout a spike of adrenaline... and that's why she always cooks up extravagant inventions to blow the Lightner visitors away!",
 				"trivia": [
 					"Was once part of a dueling coaster with her brother. After the incident, her ride was repurposed entirely and turned into the park's crown jewel.",
-					"She loves the hell out of heights."
+					"Loves the hell out of heights.",
+					"Deep inside, guilt claws at her."
+
 				],
 				"image": {
 					"default": "../assets/img/disc/ch5/firefly.png",
@@ -200,11 +202,11 @@
 					"role": "Secondary Antagonist",
 					"object": "Ride Control Panel"
 				},
-				"description": "As Dreamland's main technician and right-hand to Firefly, Libelle makes it her duty to patch up and improve all of the park's assets, be it denizens who are malfunctioning, to Firefly's many inventions and gadgets, as well as Firefly herself.\n\nAlways bringing her explosive power into play, she has quite a meek and nerdy personality in contrast, and is kind of a bookworm... except for when she's showcasing her work or talking about her interests.",
+				"description": "As Dreamland's main technician and right-hand to Firefly, Libelle makes it her duty to patch up and improve all of the park's assets, be it denizens who are malfunctioning, Firefly's many inventions and gadgets, or Firefly herself.\n\nAlways bringing her explosive power into play, she has quite a meek and nerdy personality in contrast, and is kind of a bookworm... except for when she's showcasing her work or talking about her interests.",
 				"trivia": [
 					"Hyped up on caffeine 99% of the time.",
 					"Loves explosives. Might be adding \"special editions\" to rides (explosions).",
-					"Wings got burnt due to her recklessness. Can't fly anymore, but that won't stop her!",
+					"Wings got burnt due to recklessness. Can't fly anymore, but that won't stop her.",
 					"Firefly often calls her \"Buttons\"."
 				],
 				"image": {
@@ -234,11 +236,11 @@
 						}
 					]
 				},
-				"description": "Spree Blitz, along with his sister Firefly, was part of an inseparable duo who helped manage Dreamland. One day, his ride got decommissioned after a malfunction had caused the death of <a href=\"/ch5/ebott\">two Lightners</a>.\n\nThey were never the same after the accident, his behavior erratic and bringing danger to those around him. With no other choice, Firefly was forced to leave them behind in an abandoned section of the park.\n\nSpree Blitz, embittered, and wishing to return to his days of glory, was then offered aid by a <a href=\"/ch5/beast\">strange man</a>. He gave it a peculiar crystal, and Spree Blitz, faced with the knowledge of the impossible, short-circuited and entered a comatose state. There it'd stay, forgotten by the world, awaiting the day Lightners would pass by and reactivate him.",
+				"description": "Spree Blitz, along with his sister Firefly, was part of an inseparable duo who helped manage Dreamland. One day, his ride got decommissioned after a malfunction had caused the death of <a href=\"/ch5/ebott\">two Lightners</a>.\n\nThey were never the same after the accident, his behavior erratic and bringing danger to those around him. With no other choice, Firefly was forced to leave them behind in an abandoned section of the park.\n\nSpree Blitz, embittered, and wishing to return to his days of glory, was then offered aid by a <a href=\"/ch5/beast\">strange man</a>. He gave it a peculiar crystal, and, faced with the knowledge of the impossible, Spree Blitz short-circuited and entered a comatose state. There it'd stay, forgotten by the world, awaiting the day Lightners would pass by and reactivate him.",
 				"trivia": [
-					"Gravi, the shopkeeper, helps keep an eye on him as Spree Blitz has proven to be extremely dangerous.",
+					"Gravi helps keep an eye on him. She's responsible for building the puzzle to keep people away from his area.",
 					"Firefly comes by to visit its mechanical tomb whenever guilt decides to consume her.",
-					"They once met a strange priest and grew close to him. Little did they know that later on the priest would steal his eyes as a morbid memento. ...Maybe that's fine by him."
+					"They once met a strange priest and grew close to him. Little did they know that later on he'd get his eyes stolen as a morbid memento. ...Maybe that's fine by him."
 				],
 				"image": {
 					"default": "../assets/img/disc/ch5/spreeblitz.png",
@@ -257,12 +259,12 @@
 					"role": "Side Character",
 					"object": ""
 				},
-				"description": "As mayor, Comet seems to always be focused on her job, leaning towards being a workaholic. This leaves her with no time to be present for her family, and more often than not, she is severely stressed out.\n\nShe takes her job very seriously and always does what she thinks is best for the town. Dess' disappearance and Rudy's hospitalization shook her greatly, however, which only made her become even more strict with Noelle and closed off emotionally.",
+				"description": "As mayor, Comet seems to always be focused on her job... if you wish to avoid describing her as a workaholic. This leaves her with no time to be present for her family, and more often than not, she is severely stressed out.\n\nShe takes her job very seriously and always does what she thinks is best for the town. Dess' disappearance and Rudy's hospitalization shook her greatly, however, which only made her become even more strict with Noelle and closed off emotionally.",
 				"trivia": [
 					"A true coffee addict. It helps her function.",
 					"Not only her relationship with Noelle is shaken, but her marriage as well.",
 					"Always <a href=\"/gov\">busy</a>. Always.",
-					"She loves her family so much it hurts."
+					"Despite what may seem, she loves her family so much it hurts."
 				],
 				"image": {
 					"default": "../assets/img/disc/ch5/comet.png",
@@ -285,6 +287,7 @@
 				"trivia": [
 					"Knows Susie. They get along well.",
 					"Asriel did not tell her the truth. She thinks Dess has ghosted her online.",
+					"Slowly lost contact with mostly everyone in Hometown.",
 					"Despite everything, Pollyanna still believes in better days."
 				],
 				"image": {
@@ -306,7 +309,7 @@
 					"role": "Main Antagonist",
 					"object": ""
 				},
-				"description": "The Beholder is someone... peculiar. He says he's a lab assistant to... someone, but he doesn't seem very enthusiastic about it.\n\nHe appears to be currently stranded in The Depths, and is antsy to get out once he finishes his \"main objective\" there.",
+				"description": "The Beholder is someone... peculiar. He says he's a lab assistant to... someone, but he doesn't seem very enthusiastic about it. Despite this, they maintain an eerily cheerful attitude, carelessly poking fun at others with an ever-present grin.\n\nHe appears to be currently stranded in The Depths, and is antsy to get out once he finishes his \"main objective\" there.",
 				"trivia": [
 					"They rhyme. Like, a lot.",
 					"Has a tendency to stare (like cats do) and make unnecessary or blunt observations.",
@@ -333,7 +336,7 @@
 				"trivia": [
 					"Those who go glitch hunting get to see them first.",
 					"Not a cat! A raccoon that hangs around trash.",
-					"An all powerful entity...? Maybe not. Just a friend you wouldn't want to mess with.",
+					"Just a friend you wouldn't want to cross. Do they work for someone...? Or against them?",
 					"Makes a room for itself everywhere they go."
 				],
 				"image": {
@@ -413,7 +416,7 @@
 				"description": "A cold, calculated and sinister ruler, Pionite has been using their crystals and ink to build his empire for centuries.\n\nWhen the Knight came to him with an offer, he was more than willing to listen, strongly believing in her cause. He will do whatever it takes to make sure her plans come to fruition.",
 				"trivia": [
 					"He has his subjects bring gifts and offerings to him constantly.",
-					"Residents of the Hyaloid Fortress must always be present for the Yuletide Feast. Show up late and you will be punished.",
+					"Residents of the Hyaloid Fortress must always be present for the Yuletide Feast. Show up late and you will be punished!",
 					"Everything is a tradition in their eyes, and must be followed thoroughly."
 				],
 				"image": {
