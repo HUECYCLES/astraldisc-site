@@ -62,11 +62,11 @@
 					"items": [
 						{
 							"name": "Gloryslicer",
-							"icon": "../assets/img/disc/equip_sword.png"
+							"icon": "../assets/img/party/equip_sword.png"
 						},
 						{
 							"name": "IdConcealer",
-							"icon": "../assets/img/disc/equip_armor.png"
+							"icon": "../assets/img/party/equip_armor.png"
 						}
 					]
 				},
@@ -145,11 +145,11 @@
 					"items": [
 						{
 							"name": "VesperRing",
-							"icon": "../assets/img/disc/equip_ring.png"
+							"icon": "../assets/img/party/equip_ring.png"
 						},
 						{
 							"name": "CorruptStole",
-							"icon": "../assets/img/disc/equip_armor.png"
+							"icon": "../assets/img/party/equip_armor.png"
 						}
 					]
 				},
@@ -228,11 +228,11 @@
 					"items": [
 						{
 							"name": "BrokenTracks",
-							"icon": "../assets/img/disc/equip_sword.png"
+							"icon": "../assets/img/party/equip_sword.png"
 						},
 						{
 							"name": "Safety Belt",
-							"icon": "../assets/img/disc/equip_armor.png"
+							"icon": "../assets/img/party/equip_armor.png"
 						}
 					]
 				},
@@ -359,11 +359,11 @@
 					"items": [
 						{
 							"name": "GonerLabrys",
-							"icon": "../assets/img/disc/equip_axe.png"
+							"icon": "../assets/img/party/equip_axe.png"
 						},
 						{
-							"name": "SoulBandage",
-							"icon": "../assets/img/disc/equip_armor.png"
+							"name": "Soggy Bandage",
+							"icon": "../assets/img/party/equip_armor.png"
 						}
 					]
 				},
@@ -438,11 +438,11 @@
 					"items": [
 						{
 							"name": "Fatemantle",
-							"icon": "../assets/img/disc/equip_scarf.png"
+							"icon": "../assets/img/party/equip_scarf.png"
 						},
 						{
 							"name": "DestinyVeil",
-							"icon": "../assets/img/disc/equip_armor.png"
+							"icon": "../assets/img/party/equip_armor.png"
 						}
 					]
 				},
