@@ -57,3 +57,18 @@
 }
 
 .newsletter-tr:nth-child(even) {background-color: var(--unselected-darker);}
+
+.dandelion {
+    overflow: hidden;
+    display: block;
+    height: 200;
+}
+
+.dandelion video {
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    margin-bottom: -80px;
+}
