@@ -56,6 +56,21 @@
     font-size: 20px;
 }
 
+.newsletter-tiny {
+    font-size: var(--font-tiny);
+    color: var(--faint-text);
+    text-shadow: none;
+}
+
+.hue p {
+	text-shadow: none;
+	background: linear-gradient(90deg, var(--hue1), var(--hue2), var(--hue3), var(--hue4));
+  	background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 .newsletter-tr:nth-child(even) {background-color: var(--unselected-darker);}
 
 .dandelion {

@@ -70,10 +70,10 @@
     --trashcat: #9370DB;
     --shaz: #4B0082;
 
-    --hue1: #ff7da2;
-    --hue2: #ffe380;
-    --hue3: #8aff78;
-    --hue4: #cb7eff;
+    --hue1: #ff81be;
+    --hue2: #81f7ff;
+    --hue3: #b6ff81;
+    --hue4: #ffea6c;
 }
 
 /*  ---------- Fonts  ---------- */
@@ -146,6 +146,9 @@
 html {
 	font-size: 16px;
 	line-height: 1.5;
+}
+
+* {
     cursor: var(--cursor-main);
 }
 
@@ -217,7 +220,6 @@ a {
 }
 
 a:hover {
-	cursor: var(--cursor-main);
 	color: var(--link-hover);
 	text-decoration: none;
 	text-shadow: none;
@@ -334,7 +336,6 @@ footer {
 
 /* ---------- Graze Effect ---------- */
 .grazearea {
-	cursor: var(--cursor-main);
 	color: transparent;
 	/* just setting padding and margin didn't work */
 	padding-left: 40px;
@@ -430,7 +431,6 @@ footer {
     text-decoration: none;
     color: var(--link-default);
     font-size: 250%;
-    cursor: var(--cursor-main);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -837,13 +837,11 @@ body.shadowcrystal {
 .inputDW .speak-btn:hover {
     border: var(--h2) 2px solid;
     color: var(--h2);
-    cursor: var(--cursor-main);
 }
 
 .inputDW .speak-btn:active {
     border: var(--font-color) 2px solid;
     color: var(--font-color);
-    cursor: var(--cursor-main);
 }
 
 .well-page {
