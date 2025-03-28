@@ -73,7 +73,7 @@ hr {
 }
 
 .sidebar section {
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 .sidebar h2 {
@@ -86,7 +86,7 @@ hr {
 }
 
 .sidebar p, .sidebar ul {
-    margin: 10px 0;
+    margin: 5px 0;
     font-size: 12px;
 }
 
