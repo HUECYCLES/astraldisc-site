@@ -72,3 +72,10 @@
     margin-top: -50px;
     margin-bottom: -80px;
 }
+
+.nick_bouquet video {
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
