@@ -34,6 +34,14 @@
     --unselected: #614e6b;
     --unselected-darker: #261e2c;
     --unselected-darkest: #1b151f;
+    /* Souls */
+    --red: #ff0000;
+    --orange: #fca600;
+    --yellow: #ffff00;
+    --green: #00c000;
+    --cyan: #42fcff;
+    --blue: #003cff;
+    --purple: #d535d9;
 
     /* Team Colors */
     --katebulka: #FF69B4;
