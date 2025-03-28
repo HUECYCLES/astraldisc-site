@@ -19,6 +19,10 @@ colorPicker.addEventListener('input', (event) => {
     currentColor = event.target.value;
 });
 
+function clearCanvas() {
+    context.clearRect(0, 0, canvas.width, canvas.height)
+}
+
 // Drawing
 canvas.addEventListener('mousemove', (event) => {
     if (event.buttons === 1) { 
