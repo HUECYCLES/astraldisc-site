@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Essential -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<!-- For Search Engines -->
+		<meta name="description" content="A DELTARUNE Chapters 3-8 take, made for fun.">
+		<meta name="keywords" content="deltarune, deltarune fanmade, deltarune fanproject">
+
+		<!-- Card -->
+		<meta property="og:title" content="ASTRAL DISC">
+		<meta property="og:url" content="https://astraldisc.com/">
+		<meta property="og:description" content="A DELTARUNE Chapters 3-8 take.">
+		<meta property="og:image" content="https://astraldisc.com/assets/img/disc/new_shooting_star.png">
+		<meta property="og:type" content="website">
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@ASTRALDISC">
+		<meta name="twitter:title" content="ASTRAL DISC">
+		<meta name="twitter:description" content="A DELTARUNE Chapters 3-8 take.">
+		<meta name="twitter:image" content="https://astraldisc.com/assets/img/disc/new_shooting_star.png">
+
+		<!-- SEO stuff -->
+		<meta name="revisit-after" content="7 days">
+		<meta name="distribution" content="global">
+		<meta name="robots" content="index, follow">
+
+		<!-- Title & Favicon -->
+		<title>ASTRAL DISC</title>
+		<link rel="icon" type="image/png" href="./assets/img/favicon/astraldisc.png" />
+		
+		<!-- CSS -->
+		<link href="./css/reset.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./css/disc/main.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./css/goner/main.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+	<body class="DEVICE-page">
+		<init-component></init-component>
+		<script src="./js/components/init.js"></script>
+
+		<div class="wrapper">
+			<main>
+				<div id="fade_in">
+					<div class="DEVICEbox">
+						<p>WARNING</p>
+						<div class="DEVICE">
+							<firstline>YOU HAVE FOUND A STRANGE DISC.</firstline><br>
+							<firstline>INSERT IT IN THE DEVICE?</firstline><br>
+							<normaline><a href="./" onclick="clickGonerLoad(event);hide(this.parentNode.parentNode.parentNode)" onmouseenter="hoverSound()">YES</a> / <a href="https://huecycles.com/" onclick="clickGonerLoad(event);hide(this.parentNode.parentNode.parentNode)" onmouseenter="hoverSound()">NO</a></normaline>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<cookies-component></cookies-component>
+		<script src="./js/components/cookies.js"></script>
+
+		<script src="./js/soundfx.js"></script>
+		<script>function hide(elem) { elem.classList.add("DEVICE-fade-out") }</script>
+	</body>
+</html>
